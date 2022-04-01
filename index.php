@@ -96,8 +96,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="icon" href="./assets/img/G_logo.png">
     <title>Google Faq</title>
@@ -128,29 +129,7 @@
         </div>
 
         <div class="header-bottom">
-            <!-- link -->
-            <!-- <ul>
-                <li class="menu-item">
-                    <a href="" class="active">
-                    introduzione
-                    </a>
-                </li>
-                <li class="menu-item">
-                    <a href="">
-                    introduzione
-                    </a>
-                </li>
-                <li class="menu-item">
-                    <a href="">
-                    introduzione
-                    </a>
-                </li>
-                <li class="menu-item">
-                    <a href="">
-                    introduzione
-                    </a>
-                </li>
-            </ul> -->
+            <!-- header link -->
         </div>
     </header>
 
@@ -177,7 +156,25 @@
 
     <!-- FOOTER -->
     <footer>
+        <div class="container">
 
+            <div class="footer-left">
+                <!-- footer link -->                
+            </div>
+    
+            <div class="footer-right">
+                <!-- icon -->
+                <i class="fa-solid fa-earth-asia"></i>
+                <!-- language -->
+                <select name="language" id="language">
+                    <option value="it">Italiano</option>
+                    <option value="en">English</option>
+                    <option value="es">Español</option>
+                    <option value="fr">Français</option>
+                </select>
+            </div>
+
+        </div>
     </footer>
 
     <script src="./assets/js/app.js"></script>    
