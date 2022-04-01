@@ -167,7 +167,7 @@
                 <i class="fa-solid fa-earth-asia"></i>
                 <!-- language -->
                 <select name="language" id="language">
-                    <option value="it">Italiano</option>
+                    <option value="it" selected>Italiano</option>
                     <option value="en">English</option>
                     <option value="es">Español</option>
                     <option value="fr">Français</option>
