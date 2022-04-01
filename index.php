@@ -98,15 +98,60 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="icon" href="./img//G_logo.png">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" href="./assets/img/G_logo.png">
     <title>Google Faq</title>
 </head>
 <body>
 
     <!-- HEADER -->
     <header>
+        <div class="header-top">
+            <div class="header-left">
+                <!-- logo -->
+                <div class="google-logo">
+                    <img src="./assets/img/google.png" alt="logo">
+                </div>
+                <span class="header-title">Privacy e termini</span>
+            </div>
 
+            <div class="header-right">
+                <!-- icon apps -->
+                <div class="apps">
+                    <svg class="gb_Ne" focusable="false" viewBox="0 0 24 24"><path d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path></svg>
+                </div>
+                <!-- avatar -->
+                <div class="avatar">
+                    <img class="avatar_img" src="./assets/img/user.jpeg" alt="user">
+                </div>                
+            </div>
+        </div>
+
+        <div class="header-bottom">
+            <!-- link -->
+            <!-- <ul>
+                <li class="menu-item">
+                    <a href="" class="active">
+                    introduzione
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="">
+                    introduzione
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="">
+                    introduzione
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a href="">
+                    introduzione
+                    </a>
+                </li>
+            </ul> -->
+        </div>
     </header>
 
     <!-- MAIN -->
@@ -134,6 +179,7 @@
     <footer>
 
     </footer>
-    
+
+    <script src="./assets/js/app.js"></script>    
 </body>
 </html>
