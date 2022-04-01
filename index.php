@@ -42,27 +42,19 @@
                 Il tuo account è associato a un paese (o territorio) nei Termini di servizio per poter stabilire due cose:
             </p>
             <ol>
-                <li>
-                    <p>
-                        La società consociata Google che offre i servizi, tratta le tue informazioni ed è responsabile del rispetto delle leggi sulla privacy vigenti. Generalmente Google offre i propri servizi per i consumatori tramite una delle due società seguenti:
-                    </p>
+                <li>                    
+                    La società consociata Google che offre i servizi, tratta le tue informazioni ed è responsabile del rispetto delle leggi sulla privacy vigenti. Generalmente Google offre i propri servizi per i consumatori tramite una delle due società seguenti:                    
                     <ol type='a'>
                         <li>
-                            <p>
-                                Google Ireland Limited, se gli utenti sono residenti nello Spazio economico europeo (paesi dell'Unione europea, oltre a Islanda, Liechtenstein e Norvegia) o in Svizzera.
-                            </p>
+                            Google Ireland Limited, se gli utenti sono residenti nello Spazio economico europeo (paesi dell'Unione europea, oltre a Islanda, Liechtenstein e Norvegia) o in Svizzera.                          
                         </li>
                         <li>
-                            <p>
-                                Google LLC, con sede negli Stati Uniti, per il resto del mondo.
-                            </p>
+                        Google LLC, con sede negli Stati Uniti, per il resto del mondo.                   
                         </li>
                     </ol>
                 </li>
-                <li>
-                    <p>
-                        La versione dei termini che regola il nostro rapporto, che può variare in base alle leggi locali.
-                    </p>
+                <li>                    
+                    La versione dei termini che regola il nostro rapporto, che può variare in base alle leggi locali.                   
                 </li>
             </ol>
             <p>
@@ -103,6 +95,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./img//G_logo.png">
     <title>Google Faq</title>
 </head>
 <body>
