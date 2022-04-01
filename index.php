@@ -96,3 +96,47 @@
         ],
     ]
 ?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Faq</title>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+
+    </header>
+
+    <!-- MAIN -->
+    <main class="container">
+        <?php
+        foreach($faqs as $faq){
+        ?>
+
+        <div class="faq">
+            <div class="question">
+                <h2><?= $faq['question'] ?></h2>
+            </div>
+
+            <div class="answer">
+                <?= $faq['answer'] ?>
+            </div>
+        </div>
+
+        <?php
+        }
+        ?>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
